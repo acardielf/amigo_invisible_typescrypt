@@ -1,0 +1,68 @@
+{
+  "title": "Secret Wichtel",
+  "subtitle": "Organisiere deine Weihnachts-Wichtel-Auslosung",
+  "participantsAndExclusions": "Teilnehmer & Ausschlüsse verwalten",
+  "participants": "Teilnehmer",
+  "exclusions": "Ausschlüsse",
+  "participantsTab": "Teilnehmer ({{count}})",
+  "exclusionsTab": "Ausschlüsse",
+  "addParticipant": "Teilnehmer hinzufügen",
+  "name": "Name",
+  "email": "E-Mail",
+  "namePlaceholder": "Max Mustermann",
+  "emailPlaceholder": "max@example.com",
+  "wishlist": "Wunschliste (optional)",
+  "wishlistPlaceholder": "z.B. Bücher, Schokolade, ...",
+  "selectPlaceholder": "Bitte wählen...",
+  "addButton": "Hinzufügen",
+  "exclusionsTitle": "Ausschlüsse definieren",
+  "exclusionsHint": "Definiere Paare, die sich nicht beschenken sollen (z.B. Ehepaare, Geschwister)",
+  "person1": "Person 1",
+  "person2": "Person 2",
+  "addExclusion": "Ausschluss hinzufügen",
+  "drawAndSend": "Auslosung & E-Mail-Versand",
+  "secretInfo": "Die Zuordnungen werden NICHT angezeigt - sie bleiben geheim! Alle Teilnehmer erhalten ihre Zuteilung per E-Mail.",
+  "startDraw": "Auslosung starten & E-Mails versenden",
+  "languageSwitch": "Switch to English",
+  "emptyParticipants": "Noch keine Teilnehmer hinzugefügt",
+  "emptyExclusions": "Noch keine Ausschlüsse definiert",
+  "emailProgress": "E-Mails werden versendet...",
+  "emailsSent": "{{sent}} von {{total}} E-Mails versendet",
+  "messages": {
+    "success": {
+      "participantAdded": "{{name}} wurde hinzugefügt",
+      "participantRemoved": "{{name}} wurde entfernt",
+      "exclusionAdded": "Ausschluss wurde hinzugefügt",
+      "exclusionRemoved": "Ausschluss wurde entfernt",
+      "drawSuccess": "Auslosung erfolgreich! Versende E-Mails...",
+      "allEmailsSent": "Alle {{count}} E-Mails wurden erfolgreich versendet!"
+    },
+    "error": {
+      "nameRequired": "Bitte einen Namen eingeben",
+      "nameTooLong": "Name ist zu lang (max. {{max}} Zeichen)",
+      "emailRequired": "Bitte eine E-Mail-Adresse eingeben",
+      "emailInvalid": "Ungültige E-Mail-Adresse",
+      "emailTooLong": "E-Mail ist zu lang (max. {{max}} Zeichen)",
+      "emailDuplicate": "Diese E-Mail-Adresse existiert bereits",
+      "exclusionSamePerson": "Eine Person kann nicht von sich selbst ausgeschlossen werden",
+      "exclusionDuplicate": "Dieser Ausschluss existiert bereits",
+      "exclusionMissingPerson": "Bitte beide Personen auswählen",
+      "minParticipantsRequired": "Mindestens {{min}} Teilnehmer erforderlich",
+      "drawFailed": "Auslosung fehlgeschlagen. Versuche es erneut oder entferne einige Ausschlüsse",
+      "emailConfigMissing": "E-Mail-Konfiguration fehlt. Bitte in den Einstellungen konfigurieren",
+      "emailSendError": "Fehler beim Versenden der E-Mail an {{name}}",
+      "participantAddError": "Fehler beim Hinzufügen des Teilnehmers"
+    },
+    "warning": {
+      "dataWillBeLost": "Alle Daten werden gelöscht. Fortfahren?",
+      "confirmDeleteParticipant": "{{name}} wirklich entfernen?",
+      "confirmDeleteExclusion": "Ausschluss wirklich entfernen?"
+    }
+  },
+  "ui": {
+    "buttonStartDraw": "🎲 Auslosung starten",
+    "buttonDrawing": "⏳ Auslosung läuft...",
+    "buttonSending": "📧 E-Mails werden versendet...",
+    "buttonNewDraw": "🔄 Neue Auslosung"
+  }
+}
