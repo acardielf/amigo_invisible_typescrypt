@@ -22,7 +22,7 @@ function App() {
   }, [language, i18n]);
 
   const toggleLanguage = () => {
-    const newLang: Language = language === 'de' ? 'en' : 'de';
+    const newLang: Language = language === 'en' ? 'es' : 'en';
     setLanguage(newLang);
   };
 

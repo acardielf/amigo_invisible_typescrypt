@@ -1,0 +1,68 @@
+{
+  "title": "Amigo Invisible",
+  "subtitle": "Organize your Christmas gift exchange",
+  "participantsAndExclusions": "Manage participants & exclusions",
+  "participants": "Participants",
+  "exclusions": "Exclusions",
+  "participantsTab": "Participants ({{count}})",
+  "exclusionsTab": "Exclusions",
+  "addParticipant": "Add participant",
+  "name": "Name",
+  "email": "Email",
+  "namePlaceholder": "John Doe",
+  "emailPlaceholder": "john@example.com",
+  "wishlist": "Wishlist (optional)",
+  "wishlistPlaceholder": "e.g. Books, Chocolate, ...",
+  "selectPlaceholder": "Please select...",
+  "addButton": "Add",
+  "exclusionsTitle": "Define exclusions",
+  "exclusionsHint": "Define pairs who should not gift each other (e.g. couples, siblings)",
+  "person1": "Person 1",
+  "person2": "Person 2",
+  "addExclusion": "Add exclusion",
+  "drawAndSend": "Draw & send emails",
+  "secretInfo": "The assignments will NOT be displayed - they remain secret! All participants receive their assignment via email.",
+  "startDraw": "Start draw & send emails",
+  "languageSwitch": "Zu Deutsch wechseln",
+  "emptyParticipants": "No participants added yet",
+  "emptyExclusions": "No exclusions defined yet",
+  "emailProgress": "Sending emails...",
+  "emailsSent": "{{sent}} of {{total}} emails sent",
+  "messages": {
+    "success": {
+      "participantAdded": "{{name}} has been added",
+      "participantRemoved": "{{name}} has been removed",
+      "exclusionAdded": "Exclusion has been added",
+      "exclusionRemoved": "Exclusion has been removed",
+      "drawSuccess": "Draw successful! Sending emails...",
+      "allEmailsSent": "All {{count}} emails sent successfully!"
+    },
+    "error": {
+      "nameRequired": "Please enter a name",
+      "nameTooLong": "Name is too long (max. {{max}} characters)",
+      "emailRequired": "Please enter an email address",
+      "emailInvalid": "Invalid email address",
+      "emailTooLong": "Email is too long (max. {{max}} characters)",
+      "emailDuplicate": "This email address already exists",
+      "exclusionSamePerson": "A person cannot be excluded from themselves",
+      "exclusionDuplicate": "This exclusion already exists",
+      "exclusionMissingPerson": "Please select both persons",
+      "minParticipantsRequired": "At least {{min}} participants required",
+      "drawFailed": "Draw failed. Try again or remove some exclusions",
+      "emailConfigMissing": "Email configuration missing. Please configure in settings",
+      "emailSendError": "Error sending email to {{name}}",
+      "participantAddError": "Failed to add participant"
+    },
+    "warning": {
+      "dataWillBeLost": "All data will be deleted. Continue?",
+      "confirmDeleteParticipant": "Really remove {{name}}?",
+      "confirmDeleteExclusion": "Really remove exclusion?"
+    }
+  },
+  "ui": {
+    "buttonStartDraw": "🎲 Start draw",
+    "buttonDrawing": "⏳ Drawing...",
+    "buttonSending": "📧 Sending emails...",
+    "buttonNewDraw": "🔄 New draw"
+  }
+}

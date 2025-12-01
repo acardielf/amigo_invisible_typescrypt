@@ -119,9 +119,9 @@ export const ExclusionRules = () => {
               <li key={`${exclusion.email1}-${exclusion.email2}`} className="list-item">
                 <div className="flex items-center justify-between gap-4">
                   <div className="flex-1 flex items-center gap-2">
-                    <span className="font-medium">{getParticipantName(exclusion.email1)}</span>
+                    <span className="font-medium text-black">{getParticipantName(exclusion.email1)}</span>
                     <span className="text-gray-400" aria-hidden="true">↔</span>
-                    <span className="font-medium">{getParticipantName(exclusion.email2)}</span>
+                    <span className="font-medium text-black">{getParticipantName(exclusion.email2)}</span>
                   </div>
                   <button
                     onClick={() => handleRemove(exclusion.email1, exclusion.email2)}

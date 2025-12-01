@@ -59,7 +59,7 @@ export interface Toast {
 }
 
 // Language Types
-export type Language = 'de' | 'en';
+export type Language = 'es' | 'de' | 'en';
 
 // Config Type
 export interface AppConfig {
